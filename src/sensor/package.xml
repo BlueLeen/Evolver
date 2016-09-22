@@ -1,0 +1,17 @@
+<?xml version ="1.0"?>
+<package>
+<name>sensor</name>
+<version >0.0.1 </version >
+<description >
+sensor
+</description >
+<maintainer email="lianbin@ren001.com">
+BinLian
+</maintainer >
+<license >BinLian</license >
+<buildtool_depend>catkin </buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>actionlib_msg</build_depend>
+  <run_depend>actionlib_msg</run_depend>
+</package>

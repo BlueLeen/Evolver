@@ -1,0 +1,13 @@
+<?xml version ="1.0"?>
+<package>
+<name>config</name>
+<version >0.0.1 </version >
+<description >
+encapsulating xml library
+</description >
+<maintainer email="liukai@ren001.com">
+LiuKai
+</maintainer >
+<license >TODO</license >
+<buildtool_depend>catkin </buildtool_depend>
+</package>

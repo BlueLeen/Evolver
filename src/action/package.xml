@@ -1,0 +1,19 @@
+<?xml version ="1.0"?>
+<package>
+<name>action</name>
+<version >0.0.1 </version >
+<description >
+action
+</description >
+<maintainer email="lianbin@ren001.com">
+BinLian
+</maintainer >
+<license >BinLian</license >
+<buildtool_depend>catkin </buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>actionlib_msg</build_depend>
+  <run_depend>actionlib_msg</run_depend>
+    <build_depend>actionlib_srv</build_depend>
+  <run_depend>actionlib_srv</run_depend>
+</package>

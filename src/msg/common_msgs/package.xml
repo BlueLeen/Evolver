@@ -1,0 +1,16 @@
+<package>
+  <name>common_msgs</name>
+  <version>1.0.0</version>
+  <description>
+    EvolverRobotMsg
+  </description>
+  <maintainer email="lianbin@ren001.com">BinLian</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+</package>
