@@ -21,6 +21,10 @@
 | /api/map/set_current_map | map_name:地图名<br/>floor:楼层 | {<br/>&nbsp;&nbsp;"type": "response",<br/>&nbsp;&nbsp;"command": "/api/map/set_current_map",<br/>&nbsp;&nbsp;"uuid": "",<br/>&nbsp;&nbsp;"status": "OK",<br/>&nbsp;&nbsp;"error_message": "",<br/>} | 设置机器人当前地图。 |   
 | /api/map/get_current_map | N/A | {<br/>&nbsp;&nbsp;"type": "response",<br/>&nbsp;&nbsp;"command": "/api/map/get_current_map",<br/>&nbsp;&nbsp;"uuid": "",<br/>&nbsp;&nbsp;"status": "OK",<br/>&nbsp;&nbsp;"error_message": "",<br/>&nbsp;&nbsp;"results":{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"hotel_id": "map_name_1",  // v0.5.2-v0.5.9(已弃用)<br/>&nbsp;&nbsp;&nbsp;&nbsp;"map_name": "map_name_1",<br/>&nbsp;&nbsp;&nbsp;&nbsp;  // v0.5.10以后<br/>&nbsp;&nbsp;&nbsp;&nbsp;"floor": "5"<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>} | 获取机器人当前地图。 |   
 | 定义 | 0xFD | 帧长度 | 0xF8 |   
-| 定义 | 0xFD | 帧长度 | 0xF8 |  
-| 定义 | 0xFD | 帧长度 | 0xF8 |  
+| 定义 | 0xFD | 帧长度 | 0xF8 |   
+| 定义 | 0xFD | 帧长度 | 0xF8 |   
+| 定义 | 0xFD | 帧长度 | 0xF8 |   
+| 定义 | 0xFD | 帧长度 | 0xF8 |   
+| 定义 | 0xFD | 帧长度 | 0xF8 |   
+| 定义 | 0xFD | 帧长度 | 0xF8 |   
 
