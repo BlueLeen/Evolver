@@ -2,7 +2,7 @@
 
 | 指令 | 参数 | 返回 | 描述 |
 | ------ | ------ | ------ | ------ |
-| /bpi/move | marker:目标点位代号<br/>location:(x,y,theta)<br>说明：marker和location二选一，location优先级高于marker | {<br/>&nbsp;&nbsp;"type":"response",<br/>&nbsp;&nbsp;"cmd":"/bpi/move",<br/>&nbsp;&nbsp;"uuid":"",<br/>&nbsp;&nbsp;"status":"OK",<br/>&nbsp;&nbsp;"emsg": ""<br/>} | 使机器人从当前位置移动至地图中已经标定的某个目标点，在运动过程中使用自动导航和避障功能。 |
+| /bpi/move | marker:目标点位代号<br/>location:(x,y,theta)<br>说明：marker和location二选一，location优先级高于marker | {<br/>&nbsp;&nbsp;"type":"response",<br/>&nbsp;&nbsp;"cmd":"/bpi/move",<br/>&nbsp;&nbsp;"uuid":"",<br/>&nbsp;&nbsp;"status":"OK",<br/>&nbsp;&nbsp;"emsg": ""<br/>} | 使机器人从当前位置移动至地图中已经标定的某个目标点。在运动过程中使用自动导航和避障功能。 |
 | /bpi/move/cancel | 无 | {<br/>&nbsp;&nbsp;"type": "response",<br/>&nbsp;&nbsp;"cmd": "/bpi/move/cancel",<br/>&nbsp;&nbsp;"uuid": "",<br/>&nbsp;&nbsp;"status": "OK",<br/>&nbsp;&nbsp;"emsg": ""<br/>} | 使机器人主动放弃当前正在执行的移动任务，成功取消后可使机器人进入新的待命状态。在机器人执行/bpi/move移动命令过程中，如果需要终止机器人当前的移动状态，可以调用此接口。机器人会在接收“移动取消”命令之后，原地停止，等待再次的move指令。 |    
 | /bpi/move_access | avel:角速度<br/>lvel:线速度 | {<br/>&nbsp;&nbsp;"type": "response",<br/>&nbsp;&nbsp;"cmd": "/bpi/move_access",<br/>&nbsp;&nbsp;"uuid": "",<br/>&nbsp;&nbsp;"status": "OK",<br/>&nbsp;&nbsp;"error_message": ""<br/>} | 对机器人进行部分的直接控制，如自转或停止（此控制优先级高于move指令），返回OK表示机器人已成功接收并开始运行此指令 |   
 | /bpi/istop | flag:进入或退出急停模式(取值true/false) | {<br/>&nbsp;&nbsp;"type": "response",<br/>&nbsp;&nbsp;"cmd": "/bpi/istop",<br/>&nbsp;&nbsp;"uuid": "",<br/>&nbsp;&nbsp;"status": "OK",<br/>&nbsp;&nbsp;"error_message": ""<br/>} | 使机器人进入自由停止模式，机器人可被推动。 |   
