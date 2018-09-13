@@ -39,3 +39,25 @@
 >
 > 如果状态代码不是 OK，在响应对象包含附加的 error_message 字段中更详细地说明了给定状态代码背后的原因。  
 > **注：此字段不保证始终有内容，并且其内容可能会更改。**
+
+**通知列表**  
+
+| code | description | 解释 | level | 支持开始版本 |   
+| ------ | ------ | ------ | ------ | ------ |    
+| 移动任务 |  |  |  |  |  
+| “01001” | The move task is started. | 移动任务开始了。 | info | 0.0.2 |   
+| “01002” | The move task is finished. | 移动任务完成了。 | info | 0.0.2 |   
+| “01003” | The move task is failed. | 移动任务失败了。 | info | 0.0.2 |   
+| “01004” | The move task is canceled. | 移动任务被取消了。 | info | 0.0.2 |   
+| “01005” | The move task is retried. | 移动重试。 | info | 0.0.2 |   
+| “01010” | Start to leave charging pile. | 开始离开充电桩。 | info | 0.0.2 |   
+| “01011” | Succeed to leave charging pile. | 离开充电桩成功了。 | info | 0.0.2 |   
+| “01012” | Failed to leave charging plie. | 离开充电桩失败了。 | info | 0.0.2 |   
+| “01020” | Start to auto dock to charging pile. | 开始自动停靠到充电桩。 | info | 0.0.2 |   
+
+**字段解释** 
+
+	| 返回码 | 定义描述 | 
+	| ------ | ------ |  
+	| OK | 表示响应包含有效的 results |   
+
