@@ -52,8 +52,14 @@
 | “01005” | The move task is retried. | 移动重试。 | info | 0.0.2 |   
 | “01010” | Start to leave charging pile. | 开始离开充电桩。 | info | 0.0.2 |   
 | “01011” | Succeed to leave charging pile. | 离开充电桩成功了。 | info | 0.0.2 |   
-| “01012” | Failed to leave charging plie. | 离开充电桩失败了。 | info | 0.0.2 |   
+| “01012” | Failed to leave charging plie. | 离开充电桩失败了。 | warning | 0.0.2 |   
 | “01020” | Start to auto dock to charging pile. | 开始自动停靠到充电桩。 | info | 0.0.2 |   
+| “01021” | Succced to auto dock to charging pile. | 自动停靠到充电桩上成功了。 | info | 0.0.2 |   
+| “01022” | Failed to auto dock to charging pile. | 自动停靠到充电桩上失败了。 | warning | 0.0.2 |   
+| “01023” | Failed to to receive valid data. | 回充电失败原因1。 | warning | 0.0.2 |   
+| “01024” | Failed to find any feature around the robot. | 回充电失败原因2。 | warning | 0.0.2 |   
+| “01025” | Failed to catch power status. | 回充电失败原因3。 | warning | 0.0.2 |   
+| “01026” | Failed to catch infrared signal. | 回充电失败原因4。 | warning | 0.0.2 |   
 
 **字段解释** 
 
