@@ -45,27 +45,27 @@
 | code | description | 备注 | level | 支持开始版本 |   
 | ------ | ------ | ------ | ------ | ------ |    
 | 移动任务 |  |  |  |  |  
-| “01001” | The move task is started. | 移动任务开始了。 | info | 0.0.2 |   
-| “01002” | The move task is finished. | 移动任务完成了。 | info | 0.0.2 |   
-| “01003” | The move task is failed. | 移动任务失败了。 | info | 0.0.2 |   
-| “01004” | The move task is canceled. | 移动任务被取消了。 | info | 0.0.2 |   
-| “01005” | The move task is retried. | 移动重试。 | info | 0.0.2 |   
-| “01010” | Start to leave charging pile. | 开始离开充电桩。 | info | 0.0.2 |   
-| “01011” | Succeed to leave charging pile. | 离开充电桩成功了。 | info | 0.0.2 |   
-| “01012” | Failed to leave charging plie. | 离开充电桩失败了。 | warning | 0.0.2 |   
-| “01020” | Start to auto dock to charging pile. | 开始自动停靠到充电桩。 | info | 0.0.2 |   
-| “01021” | Succced to auto dock to charging pile. | 自动停靠到充电桩上成功了。 | info | 0.0.2 |   
-| “01022” | Failed to auto dock to charging pile. | 自动停靠到充电桩上失败了。 | warning | 0.0.2 |   
-| “01023” | Failed to to receive valid data. | 回充电失败原因1。 | warning | 0.0.2 |   
-| “01024” | Failed to find any feature around the robot. | 回充电失败原因2。 | warning | 0.0.2 |   
-| “01025” | Failed to catch power status. | 回充电失败原因3。 | warning | 0.0.2 |   
-| “01026” | Failed to catch infrared signal. | 回充电失败原因4。 | warning | 0.0.2 |   
+| “06001” | moving is started. | 移动任务开始了。 | info | 0.0.2 |   
+| “06002” | moving is finished. | 移动任务完成了。 | info | 0.0.2 |   
+| “06003” | moving is failed. | 移动任务失败了。 | info | 0.0.2 |   
+| “06004” | moving is canceled. | 移动任务被取消了。 | info | 0.0.2 |   
+| “06005” | moving is retried. | 移动重试。 | info | 0.0.2 |   
+| “06011” | start to depart charging pile. | 开始离开充电桩。 | info | 未知 |   
+| “06012” | succeed to depart charging pile. | 离开充电桩成功。 | info | 未知 |   
+| “06013” | failed to depart charging plie. | 离开充电桩失败。 | warning | 未知 |   
+| “06021” | start to dock to charging pile. | 开始停靠充电桩。 | info | 未知 |   
+| “06022” | succced to dock to charging pile. | 停靠充电桩上成功。 | info | 未知 |   
+| “06023” | failed to dock to charging pile. | 停靠充电桩上失败。 | warning | 未知 |   
+| “06024” | failed to to receive valid data. | 回充失败原因1。 | warning | 未知 |   
+| “06025” | failed to find any feature around the robot. | 回充失败原因2。 | warning | 未知 |   
+| “06026” | failed to catch infrared signal. | 回充失败原因3。 | warning | 未知 |   
+| “06027” | failed to catch power status. | 回充失败原因4。 | warning | 未知 |   
 | 状态相关 |  |  |  |  |  
-| “03001” | Poweroff notice. | 将关机断电。 | info | 0.0.2 |   
-| “03002” | Charge status on. | 未充电状态=>充电状态。 | info | 0.0.2 |   
-| “03003” | Charge status off. | 充电状态=>未充电状态。 | info | 0.0.2 |   
-| “03004” | Estop on. | 未急停状态=>急停状态。 | info | 0.0.2 |   
-| “03005” | Estop off. | 急停状态=>未急停状态。 | info | 0.0.2 |   
+| “08001” | poweroff notice. | 关机断电。 | info | 0.0.2 |   
+| “08002” | charge status on. | 未充电状态->充电状态。 | info | 未知 |   
+| “08003” | charge status off. | 充电状态->未充电状态。 | info | 未知 |   
+| “08004” | istop on. | 未急停状态->急停状态。 | info | 0.0.2 |   
+| “08005” | istop off. | 急停状态->未急停状态。 | info | 0.0.2 |   
 
 **字段解释**  
 
