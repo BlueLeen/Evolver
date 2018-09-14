@@ -42,7 +42,7 @@
 
 **通知列表**  
 
-| code | description | 解释 | level | 支持开始版本 |   
+| code | description | 备注 | level | 支持开始版本 |   
 | ------ | ------ | ------ | ------ | ------ |    
 | 移动任务 |  |  |  |  |  
 | “01001” | The move task is started. | 移动任务开始了。 | info | 0.0.2 |   
@@ -60,10 +60,19 @@
 | “01024” | Failed to find any feature around the robot. | 回充电失败原因2。 | warning | 0.0.2 |   
 | “01025” | Failed to catch power status. | 回充电失败原因3。 | warning | 0.0.2 |   
 | “01026” | Failed to catch infrared signal. | 回充电失败原因4。 | warning | 0.0.2 |   
+| 状态相关 |  |  |  |  |  
+| “03001” | Poweroff notice. | 将关机断电。 | info | 0.0.2 |   
+| “03002” | Charge status on. | 未充电状态=>充电状态。 | info | 0.0.2 |   
+| “03003” | Charge status off. | 充电状态=>未充电状态。 | info | 0.0.2 |   
+| “03004” | Estop on. | 未急停状态=>急停状态。 | info | 0.0.2 |   
+| “03005” | Estop off. | 急停状态=>未急停状态。 | info | 0.0.2 |   
 
 **字段解释** 
 
-	| 返回码 | 定义描述 | 
-	| ------ | ------ |  
-	| OK | 表示响应包含有效的 results |   
+	| 字段 | 说明 | 备注 | 
+	| ------ | ------ | ------ |  
+	| code | 通知的代码 | 同一通知所使用的代码不会发生改变， 后续将扩展新的通知 |   
+	| description | 代码的解释 | 不能作为参考，可作为打印信息 |   
+	| level | 通知的级别 | 限定为info/warning/error类型, 每个code的划分以后可能会改 |   
+	| 备注 | 中文解释，仅存在于文档内 |  |   
 
